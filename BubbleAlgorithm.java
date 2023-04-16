@@ -2,13 +2,13 @@ package laba_projects;
 
 import java.util.Arrays;
 
-public class InsertionAlgorithm {
+public class BubbleAlgorithm {
 	public static void main(String[] args) {
 		int[] sortDemoArray = { 19, 202, 1, 24, 4, 10 };
-		System.out.println(Arrays.toString(InsertionSort(sortDemoArray)));
+		System.out.println(Arrays.toString(BubbleSort(sortDemoArray)));
 	}
 
-	public static int[] InsertionSort(int[] arrayExample) {
+	public static int[] BubbleSort(int[] arrayExample) {
 		int index = 0;
 		while (index != arrayExample.length - 1) {
 
